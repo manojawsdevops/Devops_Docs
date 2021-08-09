@@ -31,6 +31,23 @@ In DVCS, there is no need to store the entire data on our local repository. Inst
 
 Working copy------------------------>commit and commit-------------------> Repository------------------push and pull
 
+
+
+What is version control? 
+
+What is a “version control system”? 
+
+Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done to the code. 
+
+example is Git, Helix core, Microsoft TFS,
+
+what is repo:
+A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository.
+
+The local repository is a Git repository that is stored on your computer.
+
+The remote repository is a Git repository that is stored on some remote computer.
+
                                        Local                                             Main serer 
                                        
 
