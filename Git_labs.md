@@ -10,6 +10,8 @@ password
 
 git log -----------it will show the all logs including last commit id and commit message
 git commit --amend ----------it will help to change last commit message
+git push origin main --force-----------it will apply in github
+
 git pull --------------------it will help to pull the latest changes in remote repo
 git clone -------------------it will help to fetct all the data from remote repo
 git init --------------------it will initiaztion the repo in local system
