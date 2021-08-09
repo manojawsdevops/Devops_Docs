@@ -15,5 +15,27 @@ git clone -------------------it will help to fetct all the data from remote repo
 git init --------------------it will initiaztion the repo in local system
 git clean -------------------Removes untracked files from the working directory. This is the logical counterpart to git reset, which (typically) only operates on tracked files.
 
-What is SCM (Source code management system)
+Central Version Control System (CVCS) 
+​
+In CVCS, the central server stores all the data. This central server enables team collaboration. It just contains a single repository, and each user gets their working copy. We need to commit, so the changes get reflected in the repository. Others can check our changes by updating their local copy. 
+
+
+we have working copy:
+repository
+update and commit
+
+Distributed Version Control System (DVCS) 
+
+In DVCS, there is no need to store the entire data on our local repository. Instead, we can have a clone of the remote repository to the local. We can also have a full snapshot of the project history.  
+
+
+Working copy------------------------>commit and commit-------------------> Repository------------------push and pull
+
+                                       Local                                             Main serer 
+                                       
+
+
+
+
+
 
