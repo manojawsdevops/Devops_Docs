@@ -13,6 +13,13 @@ git push  (Automatically push the code without asking username and password)
   
   
   
+Some troublisting commands
+git fetch origin
+git reset --hard origin/main
+git pull
+  
+  
+  
   
 
 
