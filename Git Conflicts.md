@@ -9,6 +9,6 @@ vi hellowolrd.txt
     vi hellowolrd.txt 
     git add .
     git commit -m "k"
-    git pusg
+   
     git push
    cat hellowolrd.txt 
