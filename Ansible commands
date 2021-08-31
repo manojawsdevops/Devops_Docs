@@ -1,0 +1,1 @@
+ansible-playbook first.yaml --extra-vars "ansible_ssh_user=root ansible_ssh_pass=sarasu10"
