@@ -10,4 +10,5 @@ cd manoj/
    echo "sarasu10" | docker secret create dbpass -
    docker service create --name redis  --secret manoj redis:alpine
    docker service ls
+   docker service rm servicename
 
