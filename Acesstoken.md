@@ -1,1 +1,1 @@
- git push -f https://manojawsdevops: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@github.com/manojawsdevops/practise.git main
+ git push -f https://manojawsdevops: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@github.com/manojawsdevops/practise.git main
