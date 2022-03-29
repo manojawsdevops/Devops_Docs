@@ -1,0 +1,2 @@
+docker login cp.icr.io --username cp --password eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE2MTI1Mjk5MDYsImp0aSI6ImFmMjY0NWI4OGQ5ZDRiYTNiMzFjOWIwODBlN2U3ODQzIn0.xqfRNiJvfJHURgtW-q0TEYH1b1GzTki3PQmD7VhX4YU
+
