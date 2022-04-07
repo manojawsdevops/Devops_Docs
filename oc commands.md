@@ -6,6 +6,7 @@ oc adm policy add-scc-to-group anyuid system:serviceaccounts:manoj
 oc new-app --docker-image=manojreddyeidiko/log4j:latest -e LICENSE=accept
 oc expose service log4j -l name=dockerlog --port=7800
 
+oc extract secret/router-ca --keys=tls.crt -n openshift-ingress-operator
 
 
 oc patch configs.imageregistry.operator.openshift.io/cluster --type merge -p '{"spec":{"defaultRoute":true}}'
