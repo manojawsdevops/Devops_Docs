@@ -6,6 +6,8 @@ oc adm policy add-scc-to-group anyuid system:serviceaccounts:manoj
 oc new-app --docker-image=manojreddyeidiko/log4j:latest -e LICENSE=accept
 oc expose service log4j -l name=dockerlog --port=7800
 
+ex +'/BEGIN CERTIFICATE/,/END CERTIFICATE/p' <(echo | openssl s_client -showcerts -connect default-route-openshift-image-registry.apps.ocp4.eidikointernal.com:6443) -scq > ca.crt
+
 oc extract secret/router-ca --keys=tls.crt -n openshift-ingress-operator
 
 
