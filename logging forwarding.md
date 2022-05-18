@@ -7,10 +7,10 @@ spec:
   outputs:
    - name: elasticsearch-insecure
      type: "elasticsearch"
-     url: http://192.168.3.177:9200
+     url: http://192.168.3.181:9200
    - name: kafka-app
      type: "kafka"
-     url: http://192.168.3.177:9093/devopsopenshift
+     url: http://192.168.3.181:9093/devopsopenshift
   inputs:
    - name: my-app-logs
      application:
