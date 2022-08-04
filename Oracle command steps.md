@@ -14,3 +14,7 @@ quit from the sql prompt
 start the listener
 
 lsnrctl start
+
+
+
+URL:---https://oracle-base.com/articles/21c/oracle-db-21c-installation-on-oracle-linux-8
